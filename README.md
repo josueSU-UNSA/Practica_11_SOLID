@@ -18,7 +18,16 @@
   En nuestra superclase Usuario solo contiene aquellos métodos que comparten las subclases :Ponente y Asistente , ya  que el     ponente no tiene los mismos métodos que asistente y viceversa.
 
     Super Clase Usuario:
+  
   ![L_Usuario](https://user-images.githubusercontent.com/82920949/185823531-e695240c-3752-42ed-a028-25a33e3e57c4.PNG)
+      
+    Sub Clase Asistente:
+  
+  ![L_Asistente](https://user-images.githubusercontent.com/82920949/185823749-cdfdfdc6-368f-4caa-8d9c-eb9ed240cd06.PNG)
+
+    Sub Clase Ponente:
+    
+   ![L_Ponentee](https://user-images.githubusercontent.com/82920949/185823791-6cf54861-1cd7-4f64-bf25-50f776a07483.PNG)
 
   
   ## 2. O-Principio de Abierto-Cerrado:
