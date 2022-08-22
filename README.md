@@ -9,3 +9,5 @@
 ## 2. O-Principio de Abierto-Cerrado:
   Este principio tiene como objetivo extender el comportamiento de una Clase sin cambiar el comportamiento existente de esa Clase.   Esto es para evitar causar errores dondequiera que se use la Clase.
   Para aplicar este ejemplo todas  las clases deben descender de una clase abstracta donde se presenten todos aquellos métodos que   son la base de las respectivas clases.
+  
+  ![Open_Closed](https://user-images.githubusercontent.com/82920949/185822594-98e96308-56dd-46ea-9886-87dfecc9a21f.PNG)
