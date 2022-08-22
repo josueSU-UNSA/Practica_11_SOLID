@@ -10,6 +10,10 @@ class Usuario:
         self.apellidos = _apellidos
         self.lista = lista_eventos
  
+    def get_Tuple_Data(self):
+        tuple=(self.id,self.nombre,self.correo)
+        return tuple
+    
     def accedeEvento(self, nombre_evento):
         if self.buscaEvento(nombre_evento):
             self.lista.muestraEvento(nombre_evento)
