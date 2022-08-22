@@ -1,4 +1,10 @@
-class Eventos:
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
+
+from Entities.Evento_interface import Evento_interface
+
+
+class Evento(Evento_interface):
     def __init__(self, _detalles, _link, _nombre):
         self.detalles = _detalles
         self.link = _link
