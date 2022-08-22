@@ -53,6 +53,27 @@
 
   
   
-  ## 2. O-Principio de Abierto-Cerrado:
-  Este principio tiene como objetivo extender el comportamiento de una Clase sin cambiar el comportamiento existente de esa Clase.   Esto es para evitar causar errores dondequiera que se use la Clase.
-  Para aplicar este ejemplo todas  las clases deben descender de una clase abstracta donde se presenten todos aquellos métodos que   son la base de las respectivas clases.
+  ## 5. D — Inversión de dependencia:
+  Este principio tiene como objetivo reducir la dependencia de una Clase de alto nivel en la Clase de bajo nivel mediante la     introducción de una interfaz.Para cumplir con este princpio debemos crear las interfaces de todas  nuestras clases:
+    
+    Iterfaz de la Clase Evento:
+    
+   ![D_Evento_Interfaz](https://user-images.githubusercontent.com/82920949/185825047-860ff0f0-6080-465b-a99f-1df07f461b9e.PNG)
+
+    
+    Iterfaz de la Clase Lista_de_eventos:
+    
+   ![D_Lista_de_eventos_Interface](https://user-images.githubusercontent.com/82920949/185825067-e96bf7d1-cde9-43b0-b5ab-9275bef1d39e.PNG)
+
+    
+    Iterfaz de la Clase Tema:
+    
+  ![D_Tema_interface](https://user-images.githubusercontent.com/82920949/185825109-58c6b90e-4ec8-4efd-a5b2-134e2ae5214c.PNG)
+
+    
+    Iterfaz de la Clase Usuario:
+  
+  ![D_Usuario_Interface](https://user-images.githubusercontent.com/82920949/185825147-bd8437c2-2d31-4ab2-9fb7-5ef06118a5b3.PNG)
+
+  
+  
