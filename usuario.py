@@ -1,7 +1,10 @@
-import evento as evnt
-import lista as lista_eventos
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
+from Usuario_interface import Usuario_interface
+from Ponente import Ponente
+from Asistente import Asistente
 
-class Usuario:
+class Usuario(Usuario_interface, Ponente, Asistente):
     def __init__(self, _ID, _correo, _nombre, _Port1, _apellidos):
         self.ID = _ID
         self.correo = _correo
