@@ -17,7 +17,7 @@
   Para aplicar este ejemplo todas  las clases que sean subtipos de una superclase , y esta misma debe incluir solo aquellos       métodos que comparten ambas subclases sin romper la lógica.
   En nuestra superclase Usuario solo contiene aquellos métodos que comparten las subclases :Ponente y Asistente , ya  que el     ponente no tiene los mismos métodos que asistente y viceversa.
 
-    Class Usuario:
+    Super Clase Usuario:
   ![L_Usuario](https://user-images.githubusercontent.com/82920949/185823531-e695240c-3752-42ed-a028-25a33e3e57c4.PNG)
 
   
